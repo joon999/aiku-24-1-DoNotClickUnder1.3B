@@ -27,9 +27,10 @@ LLM보다 SLM이 점차 주목받고 있기 때문에,
 이후 구축된 데이터셋으로 언어모델을 파인튜닝하였으며, 비교를 위해 SLM 외에도 bert기반 모델에도 학습을 진행했습니다.
 
 Evaluation을 위해서는 아래 3가지 메트릭을 기반으로 gpt4 api로 평가를 진행했습니다.
-PV_metric : 상품(P)과 핵심가치(V)가 광고문구에 적절히 반영 되었는가?
-Naturalness_metric: 광고문구가 문법적, 의미론적으로 자연스러운가?
-Creativity_metric : 광고문구가 창의적인가?
+
+ PV_metric : 상품(P)과 핵심가치(V)가 광고문구에 적절히 반영 되었는가?
+ Naturalness_metric: 광고문구가 문법적, 의미론적으로 자연스러운가?
+ Creativity_metric : 광고문구가 창의적인가?
 
 
 
